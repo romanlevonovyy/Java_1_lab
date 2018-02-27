@@ -48,6 +48,6 @@ public abstract class Performance {
 
     @Override
     public String toString() {
-        return "gavno"+this.getPrice()+"gavno"+this.getDuration()+"gavno"+this.getEmployees();
+        return "Price"+this.getPrice()+"Durationo"+this.getDuration()+"Employees"+this.getEmployees();
     }
 }
