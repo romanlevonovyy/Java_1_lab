@@ -1,0 +1,39 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class StringProcessor {
+
+
+    /**
+     * read string from console
+     */
+    public String readInputText() throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter String\n");
+        String s = br.readLine();
+        s = s.toLowerCase();
+            return s;
+    }
+
+    /**
+     * delete all credit cards from sentences
+     */
+    public String processText(String inputText) {
+        String result = inputText.replaceAll("[0-9]{16}", "");
+        result = result.replaceAll("[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}", "");
+
+        return result;
+    }
+
+    /**
+     * print string after work
+     */
+    public void showResult(String resultText ) {
+        System.out.println(resultText);
+    }
+
+
+}
