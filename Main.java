@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Cat Vasa = new Cat();
-        Cat Pushok = new Cat(" Pushok ", 12, " red ", 4);
-        Cat Murchik = new Cat(" Murchik ", 10, " black ", 6, " Siam ");
+        Cat vasa = new Cat();
+        Cat pushok = new Cat(" Pushok ", 12, " red ", 4);
+        Cat murchik = new Cat(" Murchik ", 10, " black ", 6, " Siam ");
 
         Vasa.setName(" Vasa ");
         Vasa.setAge(15);
