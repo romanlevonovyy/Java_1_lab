@@ -6,7 +6,7 @@ public class Cat {
     private String breed;
     private String name;
     private int age;
-    public static int totalAge = 0;
+    private static int totalAge = 0;
 
     public Cat(){
 
