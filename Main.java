@@ -7,28 +7,28 @@ public class Main {
         Cat pushok = new Cat(" Pushok ", 12, " red ", 4);
         Cat murchik = new Cat(" Murchik ", 10, " black ", 6, " Siam ");
 
-        Vasa.setName(" Vasa ");
-        Vasa.setAge(15);
-        Vasa.setWeight(7);
-        Vasa.setColor(" Gray ");
-        Vasa.setBreed(" Toiger ");
+        vasa.setName(" Vasa ");
+        vasa.setAge(15);
+        vasa.setWeight(7);
+        vasa.setColor(" Gray ");
+        vasa.setBreed(" Toiger ");
         System.out.println(Vasa);
         System.out.println(Pushok);
         System.out.println(Murchik);
         Cat.printStaticSum();
-        Vasa.printSum();
-        Pushok.printSum();
-        Murchik.printSum();
-        Vasa.resetValue(3, " Safari "," black ", " Kolia ", 2);
-        Pushok.resetValue(1, " Savanna ", " yelow ", " Lubomir ", 5);
-        Murchik.resetValue(5, " American ", " grey ", " Shenia ", 3);
+        vasa.printSum();
+        pushok.printSum();
+        murchik.printSum();
+        vasa.resetValue(3, " Safari "," black ", " Kolia ", 2);
+        pushok.resetValue(1, " Savanna ", " yelow ", " Lubomir ", 5);
+        murchik.resetValue(5, " American ", " grey ", " Shenia ", 3);
         System.out.println(Vasa);
         System.out.println(Pushok);
         System.out.println(Murchik);
         Cat.printStaticSum();
-        Vasa.printSum();
-        Pushok.printSum();
-        Murchik.printSum();
+        vasa.printSum();
+        pushok.printSum();
+        murchik.printSum();
 
 
 
